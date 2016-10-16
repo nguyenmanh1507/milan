@@ -1,0 +1,15 @@
+{
+  "name": "milan",
+  "version": "1.0.0",
+  "description": "Starter stylesheet structure",
+  "main": "index.js",
+  "repository": {
+    "url": "git@github.com:nguyenmanh1507/milan.git",
+    "type": "git"
+  },
+  "author": "ngmanh <nguyenmanh1507@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "^5.0.0"
+  }
+}
