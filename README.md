@@ -26,8 +26,21 @@ Stylesheet must passes [Stylelint](http://stylelint.io/)
 
 Rules config follow [GitHub's CSS](https://github.com/primer/stylelint-config-primer) with some overrides. See .stylelintrc for more details.
 
+## Usage
+
+1. Install dependencies
+```
+yarn install
+```
+
+1. Lint stylesheet
+```
+npm start
+```
+
 ## Notes
 
+* Use [Yarn](https://yarnpkg.com/) for manage node modules
 * All colors passes AA level - [colorsafe](http://colorsafe.co/)
 * Using PostCSS for writing stylesheet
 
