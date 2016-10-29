@@ -1,0 +1,58 @@
+/* Table of contents */
+/*
+ *  1. Global
+ *  2. Colors
+ *  3. Typography
+ *  4. Space
+ *
+ */
+
+ /* 1. Global */
+$base: 16px;
+$type-scale: 1.25;
+$line-height-base: 1.4;
+
+/* 2. Colors */
+$mine-shaft: #2a2a2a;
+$white: #fff;
+$chambray: #3a539b;
+$parsley: #134d13;
+$grenadier: #d43900;
+$bright-red: #b50000;
+$bossanova: #532f61;
+
+$color-primary: $bossanova;
+$color-secondary: $mine-shaft;
+$color-info: $chambray;
+$color-success: $parsley;
+$color-warning: $grenadier;
+$color-danger: $bright-red;
+
+$body-bg: $white;
+$body-color: $mine-shaft;
+$link-color: $chambray;
+
+/* 3. Typography */
+$font-sans-serif: Raleway, sans-serif;
+$font-serif: Bitter, serif;
+$font-special: Damion, cursive; /* This is optional, remove if nessesary */
+
+$font-family-body: $font-sans-serif;
+$font-family-heding: $font-serif;
+
+$font-size-h1: calc($base * $type-scale * $type-scale * $type-scale * $type-scale);
+$font-size-h2: calc($base * $type-scale * $type-scale * $type-scale);
+$font-size-h3: calc($base * $type-scale * $type-scale);
+$font-size-h4: calc($base * $type-scale);
+$font-size-h5: $base;
+$font-size-h6: calc($base / $type-scale);
+$font-size-base: $base;
+
+$font-weight-base: 400;
+
+/* 4. Space */
+$space-xs: calc($base / 4);
+$space-sm: calc($base / 2);
+$space-md: $base;
+$space-lg: calc($base * 2);
+$space-xlg: calc($base * 4);
