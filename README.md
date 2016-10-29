@@ -20,6 +20,12 @@
   * \_all.css
 * main.css
 
+## Stylelint
+
+Stylesheet must passes [Stylelint](http://stylelint.io/)
+
+Rules config follow [GitHub's CSS](https://github.com/primer/stylelint-config-primer) with some overrides. See .stylelintrc for more details.
+
 ## Notes
 
 * All colors passes AA level - [colorsafe](http://colorsafe.co/)
