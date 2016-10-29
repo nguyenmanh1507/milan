@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-primer",
+  "rules": {
+    "selector-no-type": null,
+    "no-unsupported-browser-features": [true, {
+      "ignore": ["calc", "outline", "css-resize", "pointer", "css-touch-action"],
+    }],
+  },
+}
