@@ -29,14 +29,14 @@ Rules config follow [GitHub's CSS](https://github.com/primer/stylelint-config-pr
 ## Usage
 
 1. Install dependencies
-```
-yarn install
-```
+  ```
+  yarn install
+  ```
 
 2. Lint stylesheet
-```
-npm start
-```
+  ```
+  npm start
+  ```
 
 ## Notes
 
