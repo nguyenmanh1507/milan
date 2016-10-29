@@ -33,7 +33,7 @@ Rules config follow [GitHub's CSS](https://github.com/primer/stylelint-config-pr
 yarn install
 ```
 
-1. Lint stylesheet
+2. Lint stylesheet
 ```
 npm start
 ```
